@@ -3,13 +3,7 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sarabun', sans-serif;*/
 
-a {
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
 
 body
 {
@@ -32,11 +26,19 @@ header {
     background-color: paleturquoise;
 }
 
-Button {
+#Button {
     background-color: red;
     height: 150px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
+    margin: auto;
+    display: block;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
