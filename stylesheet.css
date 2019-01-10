@@ -1,3 +1,42 @@
+/*font-family: 'Staatliches', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sarabun', sans-serif;*/
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+body
+{
+    background-image: url(img/Grass.jpg);
+}
+
 #maintitle {
     text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+
+#buttonmain {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 45pt;
+    align-self: center;
+    color: black;
+}
+
+header {
+    background-color: paleturquoise;
+}
+
+Button {
+    background-color: red;
+    height: 150px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 }
