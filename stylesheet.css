@@ -3,7 +3,13 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Sarabun', sans-serif;*/
 
+#pins {
+    width: 90%;
+}
 
+#pinsb{
+    margin-top: 20px;
+}
 
 body
 {
@@ -27,7 +33,7 @@ header {
     background-color: paleturquoise;
 }
 
-Button {
+#mainbutton {
     background-color: red;
     height: 200px;
     width: 400px;
@@ -49,4 +55,18 @@ Button {
     float: left;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+#optionbox {
+    border: black 3px solid;
+    width: 5%;
+    float: right;
+    height: 400px;
+    background-color: whitesmoke;
+    align-content: center;
+    margin-top: 200px;
+}
+
+#map {
+    float: left
 }
