@@ -13,6 +13,7 @@ body
 #maintitle {
     text-align: center;
     font-family: 'Staatliches', cursive;
+    font-size: 40pt
 }
 
 #buttonmain {
@@ -26,9 +27,9 @@ header {
     background-color: paleturquoise;
 }
 
-#Button {
+Button {
     background-color: red;
-    height: 150px;
+    height: 200px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -41,4 +42,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#hm {
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
